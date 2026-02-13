@@ -321,7 +321,6 @@ Some of the codes are based on [`MMHuman3D`](https://github.com/open-mmlab/mmhum
 - [SMPL-X] [TPAMI'25] [SMPLest-X](https://github.com/MotrixLab/SMPLest-X): An extended version of [SMPLer-X](https://github.com/MotrixLab/SMPLer-X) with stronger foundation models.
 - [SMPL-X] [NeurIPS'23] [SMPLer-X](https://github.com/MotrixLab/SMPLer-X): Scaling up EHPS towards a family of generalist foundation models.
 - [SMPL-X] [ECCV'24] [WHAC](https://github.com/MotrixLab/WHAC): World-grounded human pose and camera estimation from monocular videos.
-- [SMPL-X] [CVPR'24] [AiOS](https://github.com/MotrixLab/AiOS): An all-in-one-stage pipeline combining detection and 3D human reconstruction. 
 - [SMPL-X] [NeurIPS'23] [RoboSMPLX](https://github.com/MotrixLab/RoboSMPLX): A framework to enhance the robustness of whole-body pose and shape estimation.
 - [SMPL-X] [ICML'25] [ADHMR](https://github.com/MotrixLab/ADHMR): A framework to align diffusion-based human mesh recovery methods via direct preference optimization.
 - [SMPL-X] [MKA](https://github.com/MotrixLab/MKA): Full-body 3D mesh reconstruction from single- or multi-view RGB videos.
