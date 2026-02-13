@@ -304,16 +304,40 @@ sh scripts/test_bedlam.sh data/checkpoint/aios_checkpoint.pth bedlam_test
 
 Some of the codes are based on [`MMHuman3D`](https://github.com/open-mmlab/mmhuman3d/blob/main/docs/install.md), [`ED-Pose`](https://github.com/IDEA-Research/ED-Pose/tree/master) and [`SMPLer-X`](https://github.com/caizhongang/SMPLer-X).
 
+## Citation
+```
+@InProceedings{Sun_2024_CVPR,
+    author    = {Sun, Qingping and Wang, Yanjun and Zeng, Ailing and Yin, Wanqi and Wei, Chen and Wang, Wenjia and Mei, Haiyi and Leung, Chi-Sing and Liu, Ziwei and Yang, Lei and Cai, Zhongang},
+    title     = {AiOS: All-in-One-Stage Expressive Human Pose and Shape Estimation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {1834-1843}
+}
+```
+## Explore More [Motrix](https://github.com/MotrixLab) Projects
 
-## Explore More [SMPLCap](https://github.com/SMPLCap) Projects
+### Motion Capture
+- [SMPL-X] [TPAMI'25] [SMPLest-X](https://github.com/MotrixLab/SMPLest-X): An extended version of [SMPLer-X](https://github.com/MotrixLab/SMPLer-X) with stronger foundation models.
+- [SMPL-X] [NeurIPS'23] [SMPLer-X](https://github.com/MotrixLab/SMPLer-X): Scaling up EHPS towards a family of generalist foundation models.
+- [SMPL-X] [ECCV'24] [WHAC](https://github.com/MotrixLab/WHAC): World-grounded human pose and camera estimation from monocular videos.
+- [SMPL-X] [CVPR'24] [AiOS](https://github.com/MotrixLab/AiOS): An all-in-one-stage pipeline combining detection and 3D human reconstruction. 
+- [SMPL-X] [NeurIPS'23] [RoboSMPLX](https://github.com/MotrixLab/RoboSMPLX): A framework to enhance the robustness of whole-body pose and shape estimation.
+- [SMPL-X] [ICML'25] [ADHMR](https://github.com/MotrixLab/ADHMR): A framework to align diffusion-based human mesh recovery methods via direct preference optimization.
+- [SMPL-X] [MKA](https://github.com/MotrixLab/MKA): Full-body 3D mesh reconstruction from single- or multi-view RGB videos.
+- [SMPL] [ICCV'23] [Zolly](https://github.com/MotrixLab/Zolly): 3D human mesh reconstruction from perspective-distorted images.
+- [SMPL] [IJCV'26] [PointHPS](https://github.com/MotrixLab/PointHPS): 3D HPS from point clouds captured in real-world settings.
+- [SMPL] [NeurIPS'22] [HMR-Benchmarks](https://github.com/MotrixLab/hmr-benchmarks): A comprehensive benchmark of HPS datasets, backbones, and training strategies.
 
-- [arXiv'25] [SMPLest-X](https://github.com/SMPLCap/SMPLest-X): An extended version of [SMPLer-X](https://github.com/SMPLCap/SMPLer-X) with stronger foundation models.
-- [ECCV'24] [WHAC](https://github.com/SMPLCap/WHAC): World-grounded human pose and camera estimation from monocular videos.
-- [CVPR'24] [AiOS](https://github.com/SMPLCap/AiOS): An all-in-one-stage pipeline combining detection and 3D human reconstruction. 
-- [NeurIPS'23] [SMPLer-X](https://github.com/SMPLCap/SMPLer-X): Scaling up EHPS towards a family of generalist foundation models.
-- [NeurIPS'23] [RoboSMPLX](https://github.com/SMPLCap/RoboSMPLX): A framework to enhance the robustness of
-whole-body pose and shape estimation.
-- [ICCV'23] [Zolly](https://github.com/SMPLCap/Zolly): 3D human mesh reconstruction from perspective-distorted images.
-- [arXiv'23] [PointHPS](https://github.com/SMPLCap/PointHPS): 3D HPS from point clouds captured in real-world settings.
-- [NeurIPS'22] [HMR-Benchmarks](https://github.com/SMPLCap/hmr-benchmarks): A comprehensive benchmark of HPS datasets, backbones, and training strategies.
+### Motion Generation
+- [SMPL-X] [ICLR'26] [ViMoGen](https://github.com/MotrixLab/ViMoGen): A comprehensive framework that transfers knowledge from ViGen to MoGen across data, modeling, and evaluation.
+- [SMPL-X] [ECCV'24] [LMM](https://github.com/MotrixLab/LMM): Large Motion Model for Unified Multi-Modal Motion Generation.
+- [SMPL-X] [NeurIPS'23] [FineMoGen](https://github.com/MotrixLab/FineMoGen): Fine-Grained Spatio-Temporal Motion Generation and Editing.
+- [SMPL] [InfiniteDance](https://github.com/MotrixLab/InfiniteDance): A large-scale 3D dance dataset and an MLLM-based music-to-dance model designed for robust in-the-wild generalization.
+- [SMPL] [NeurIPS'23] [InsActor](https://github.com/MotrixLab/insactor): Generating physics-based human motions from language and waypoint conditions via diffusion policies.
+- [SMPL] [ICCV'23] [ReMoDiffuse](https://github.com/MotrixLab/ReMoDiffuse): Retrieval-Augmented Motion Diffusion Model.
+- [SMPL] [TPAMI'24] [MotionDiffuse](https://github.com/MotrixLab/MotionDiffuse): Text-Driven Human Motion Generation with Diffusion Model.
 
+### Motion Dataset
+- [SMPL] [ECCV'22] [HuMMan](https://github.com/MotrixLab/humman_toolbox): Toolbox for HuMMan, a large-scale multi-modal 4D human dataset.
+- [SMPLX] [T-PAMI'24] [GTA-Human](https://github.com/MotrixLab/gta-human_toolbox): Toolbox for GTA-Human, a large-scale 3D human dataset generated with the GTA-V game engine.
